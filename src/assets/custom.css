@@ -331,9 +331,13 @@ button.hamburger {
     opacity: 1!important;
 }
 
+[data-cue=slideInDown], [data-cues=slideInDown]>* {
+    opacity: 1!important;
+}
 
-
-
+img.svg-inject {
+    visibility: visible;
+}
 
 
 
