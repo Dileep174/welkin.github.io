@@ -1,0 +1,407 @@
+.navbar-nav.nav-link.active.menu-item-wrap:after
+{ content: "";
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    -webkit-transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+    transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+    background: red;
+}
+
+.bg-grey {
+    background-color: #FAFAFA !important;
+}
+
+.mybox {
+background-color: #FFFFFF;
+border: 2px solid #EDEFF7;
+border-radius: 13px;
+box-sizing: border-box;
+padding: 60px 30px;
+}
+
+.mybox:hover {
+    box-shadow: 0px 24px 60px rgba(94, 122, 148, 0.1);
+    cursor: pointer;
+    }
+
+.myanimation:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+
+
+.testimonialleft{
+background-image: url("../img/testimonialbg.svg");
+background-position: top center;
+background-repeat: no-repeat;
+background-size: cover;
+ 
+}
+
+/* .Background1 {
+background-image: url("../img/Background1.svg");
+background-position: top center;
+background-repeat: no-repeat;
+background-size: cover;
+
+} */
+
+
+.Background2 {
+    background-image: url("../img/background2.svg");
+    background-position: top center;
+    background-repeat: no-repeat;  
+    background-size:cover;
+  
+    }
+
+    .Background3 {
+        background-color: #FAFAFA;
+        background-image:url("../img/circle1.svg");
+        background-position: middle center;
+        background-repeat: no-repeat;  
+        background-size:contain;
+        
+      
+        }
+
+    
+
+.testimonialbox{
+background-color: #fff;
+background: #FFFFFF;
+box-shadow: 0px 8px 55px rgba(155, 162, 173, 0.17);
+border-radius: 10px;
+padding: 40px 30px;
+}
+
+
+
+.fivestar {
+    text-align: right;
+}
+
+.testimonialcon{
+    padding-top: 15px;
+}
+
+.testimonialcount {
+color: #F4A11A;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 26px;
+
+}
+
+
+.projectcount {
+background-image: url("../img/projectcount.svg");
+background-position: top center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.projectc{
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 0px;
+color: #FFFFFF;
+line-height: 36px;
+}
+
+.projectdone {
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 0px;
+color: #FFFFFF;
+line-height: 36px;
+}
+
+.about-primary {
+  background: linear-gradient(180deg, #FFE1CC -0.58%, #FFF3EB 100%);
+
+}
+
+.smallcircle{
+position: relative;
+left: 400px !important;
+top: 50px;
+}
+
+
+.smallcircle1{
+    position: relative;
+    right: 400px;
+    top: 50px;
+    }
+
+.aboutbox{
+    text-align: left;
+}
+
+.webdesign {
+    background-color: #F9F8FF !important;
+
+}
+
+.webdevelopment {
+background-color: #FFFCF6 !important;
+}
+
+.appdevelopment {
+    background-color: #F0FFFC !important;
+}
+
+.line-high {
+    line-height: 36px;
+}
+
+.contactbox {
+background: #FFFFFF;
+box-shadow: 0px 3px 50px rgba(59, 115, 79, 0.16);
+border-radius: 10px;
+}
+
+
+.mycss {
+    margin: 0rem 3rem;
+}
+
+
+.filter-item {
+    padding: 8px 36px;
+    background: #F07A25;
+    border-radius: 12px;
+    color: #fff !important;
+  }
+
+  .filter-item:hover {
+    padding: 8px 36px;
+    background: #CC5600;
+    border-radius: 12px;
+    color: #fff !important;
+  }
+  .filter-item.active {
+    background: #CC5600;
+  }
+
+  
+.filter:not(.basic-filter) ul li + li::before {
+    content: none !important;
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 100%;
+    margin: 0 0.8rem 0 0.5rem;
+    vertical-align: 0.15rem;
+    background: rgba(30, 34, 40, 0.2);
+
+}
+
+
+.vision {
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+    top: 91px;
+}
+
+.redmorebtn {
+    color: #F07A25;
+    margin: 0px;
+    padding: 0px;
+}
+
+.redmorebtn:hover {
+    color: #C25302;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+
+hr {
+    margin: 1.5rem 0;
+    color: rgba(164, 174, 198, 0.2);
+    border: 0;
+    border-top: 1px solid;
+    opacity: 1;
+}
+
+
+.cardpadding {
+    padding: 1rem 0rem 4rem;  
+}
+
+.p-50{
+    padding: 5rem 0rem;
+}
+
+.p-40{
+    padding: 4rem 0rem;
+}
+
+.p-30{
+    padding: 3rem 0rem;
+}
+
+.ps-20{
+    padding: 2rem 0rem;
+   
+}
+
+.orangestrip {
+    background: #F07A25;
+    height: 60px;
+    width: 100%;
+}
+
+
+.profileimg{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: #EDEFF7 solid 2px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.boxcontent {
+
+    position: relative;
+    bottom: 40px;
+    margin: 10px 20px 10px 20px;   
+
+}
+
+.bg-rating {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.myres.gem-button.gem-button-style-outline a {
+    border: 2px solid #fff !important;
+}
+
+.contactform {
+    background-color:#F9F9F9;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+ul.feeldfree {
+    margin: 0px !important;
+    padding: 0px 0px 0px 15px;
+}
+
+
+button.hamburger {
+    margin-right: 30px !important;
+}
+
+.bg-footer {
+    background-image: url( ../img/footerbg.svg);
+    background-repeat: no-repeat;
+    background-position: top center; /* Center the image */
+    background-size: cover;
+}
+
+
+[data-cue=fadeIn], [data-cues=fadeIn]>* {
+    opacity: 1!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .smallcircle {
+        position: relative;
+        left: 0px !important;
+        top: 50px;
+    }
+.py-sm-10 {
+    padding: 3rem 0;
+}
+
+.img-center {
+    text-align: center;
+}
+
+
+.py-14 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+
+.filter:not(.basic-filter) ul li {
+    display: grid;
+    margin: 7px 0px;
+}
+
+
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}  
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
+
